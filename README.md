@@ -19,6 +19,9 @@ The following steps are required prior to building the driver on Ubuntu/Debian:
 sudo apt install bc module-assistant build-essential dkms
 sudo m-a prepare
 ```
+## Linux mint
+```
+sudo sh dkms-install.sh
 Ubuntu users may also install the prebuilt [rtl8821ce-dkms](https://packages.ubuntu.com/bionic-updates/rtl8821ce-dkms) package, an older version of the driver maintained by the Ubuntu MOTU Developers group for bionic, eoan and focal. It has been known to work in cases where the newer driver available here does not. Bugs and issues with that package should be reported at [Launchpad](https://launchpad.net/ubuntu/+source/rtl8821ce/+bugs) rather than here.
 
 ### Arch Linux
